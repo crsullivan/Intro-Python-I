@@ -12,6 +12,14 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
+round_y = round(y, 2)
+
+print("x is %d, y is %a, z is %s" % (x, round_y, z,))
+
 # Use the 'format' string method to print the same thing
 
+print('x is {}, y is {}, z is {}'.format(x, round_y, z))
+
 # Finally, print the same thing using an f-string
+
+print(f"x is {x}, y is {round_y}, z is {z}")
